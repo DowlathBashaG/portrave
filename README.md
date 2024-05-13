@@ -24,3 +24,21 @@ DELETE:  http://localhost:9999/api/employees/5
 POSTGRES DB :
 
 ![postgresDB](https://github.com/DowlathBashaG/portrave/assets/9671419/48489110-b084-4030-81a3-14b3b5bd7028)
+
+Kafka Produced Message Post Request:  http://localhost:9888/employees
+
+{
+    "firstName": "Arsh",
+    "lastName": "Ariz",
+    "email": "arshariz@mail.com"
+}
+
+![kafka-produce-consume-message-post](https://github.com/DowlathBashaG/portrave/assets/9671419/06f7e274-450f-483c-b00a-aa436503da59)
+
+Kafka Produce Message:
+
+![kafka-produced-message](https://github.com/DowlathBashaG/portrave/assets/9671419/9c719190-22ca-4e41-a63a-d438381e3830)
+
+Kafka Consumed Message:
+
+![kafka-consumed-message](https://github.com/DowlathBashaG/portrave/assets/9671419/18a4c6d2-f4ae-4ad8-ae04-b28cc330e34b)
